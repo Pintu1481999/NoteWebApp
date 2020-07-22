@@ -1,5 +1,5 @@
 # NoteWebApp
-This note web app made by using JavaScript
+This note web app made by using JavaScript.
 I added features like:
 1. Add Note
 2. Remove Note
