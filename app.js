@@ -1,4 +1,3 @@
-console.log('Welcome to the Notes App');
 showNotes();
 // If a user adds a note, add it to the localStorage
 let addBtn = document.getElementById('addBtn');
@@ -49,7 +48,6 @@ function showNotes() {
     }
 }
 
-
 // Function to delete the notes
 function deleteNote(index) {
     // console.log('I am deleting note:',index);
@@ -82,8 +80,6 @@ search.addEventListener('input', function() {
         }
         else {
             element.style.display = 'none';
-            // element.style.display = `There is no NOTE which contains this\these keywords\inputs.`;
-            // document.write(`There is no NOTE which contains this\these keywords\inputs.`);
         }
         // console.log(cardTxt);
     })
